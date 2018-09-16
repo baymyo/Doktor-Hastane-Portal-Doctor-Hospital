@@ -1,0 +1,23 @@
+﻿<li class="link-bg left">
+  <img title="Bloklar" src="%IconsPath%32/admin-blok.png" />
+  <div class="contextMenu">
+    <div class="openT">
+      <img title="Blok Yönetimi" src="%IconsPath%32/admin-blok.png" />
+    </div>
+    <div class="openB">
+      <ul>
+        <li>
+          <a id="A6" class="Link" href="?go=blok&type=ascx" target="_self">ASCX Blok Ekle</a>
+        </li>
+        <li>
+          <a id="A7" class="Link" href="?go=blok&type=html" target="_self">HTML Blok Ekle</a>
+        </li>
+        <li>
+          <a id="A8" class="Link" href="?go=blokliste" target="_self">Blokları Listele</a>
+        </li>
+      </ul>
+    </div>
+    <div class="openF">
+    </div>
+  </div>
+</li>

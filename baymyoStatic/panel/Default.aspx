@@ -1,0 +1,1 @@
+﻿<%@ Page Title="Yönetim Paneli" Language="C#" ValidateRequest="false" MasterPageFile="~/common/master/Admin.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="panel_Default" %>

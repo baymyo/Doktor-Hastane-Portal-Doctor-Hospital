@@ -1,0 +1,10 @@
+﻿/*pagination links 1-2-3-4-5...10-11-12 */
+.pagination { padding: 7px 2px 2px 2px; text-align: center; }
+.pagination ul { margin: 0px; padding: 0px; font-family: Arial; text-align: center; font-size: 14px; }
+.pagination li { list-style-type: none; display: inline; margin: 1px; border: 0px; color: #C0C0C0 !important; }
+.pagination a, .pagination a:link, .pagination a:visited { padding: 5px; background: transparent url(images/page_link.png) repeat-x; color: #C0C0C0 !important; border: 1px solid #e9e9e9; text-decoration: none; }
+.pagination a:hover, .pagination a:active, .pagination a.currentpage { color: #FFFFFF !important; border: 1px solid #d65e00; background: transparent url(images/page_hover.png) repeat-x; }
+.pagination a.currentpage { padding: 5px; font-weight: bold; cursor: default; }
+.pagination a.prev, .pagination a.next, .pagination a.prevend, .pagination a.nextend { padding: 5px; background: transparent url(images/page_link.png) repeat-x; border: 1px solid #e9e9e9; font-weight: bold; }
+.pagination a.prev:hover, .pagination a.prevend:hover, .pagination a.next:hover, .pagination a.nextend:hover { border: 1px solid #d65e00; background: transparent url(images/page_hover.png) repeat-x; }
+.pagination a.disablelink, .pagination a.disablelink:hover { display: none; visibility: hidden; border: 0px; }

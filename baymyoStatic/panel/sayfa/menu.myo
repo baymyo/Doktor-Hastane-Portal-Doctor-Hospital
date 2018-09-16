@@ -1,0 +1,20 @@
+﻿<li class="link-bg left">
+  <img title="Sayfalar" src="%IconsPath%32/admin-sayfa.png" />
+  <div class="contextMenu">
+    <div class="openT">
+      <img title="Sayfalar" src="%IconsPath%32/admin-sayfa.png" />
+    </div>
+    <div class="openB">
+      <ul>
+        <li>
+          <a id="A1" class="Link" href="?go=sayfa" target="_self">Yeni Sayfa Ekle</a>
+        </li>
+        <li>
+          <a id="A2" class="Link" href="?go=sayfaliste" target="_self">Sayfaları Listele</a>
+        </li>
+      </ul>
+    </div>
+    <div class="openF">
+    </div>
+  </div>
+</li>

@@ -1,0 +1,38 @@
+﻿<li class="link-bg left">
+  <img title="Kullanıcılar" src="%IconsPath%32/admin-hesap.png" />
+  <div class="contextMenu">
+    <div class="openT">
+      <img title="Kullanıcı Hesapları" src="%IconsPath%32/admin-hesap.png" />
+    </div>
+    <div class="openB">
+      <ul>
+        <li>
+          <a id="A1" class="Link" href="?go=hesap&type=4" target="_self">Yeni Üye Ekle</a>
+        </li>
+        <li>
+          <a id="A2" class="Link" href="?go=hesap&type=3" target="_self">Yeni Doktor Ekle</a>
+        </li>
+        <li>
+          <a id="A3" class="Link" href="?go=hesap&type=3" target="_self">Yeni Hastane Ekle</a>
+        </li>
+        <li>
+          <a id="A4" class="Link" href="?go=hesapliste" target="_self">Hesapları Listele</a>
+        </li>
+        <li>
+          <a id="A5" class="Link" href="?go=kategori&mdl=unvan" target="_self">Doktor Ünvanları</a>
+        </li>
+        <li>
+          <a id="A6" class="Link" href="?go=kategori&mdl=uzmanlik" target="_self">Doktor Branşları</a>
+        </li>
+        <li>
+          <a id="A7" class="Link" href="?go=kategori&mdl=hastaneunvan" target="_self">Hastane Unvanları</a>
+        </li>
+        <li>
+          <a id="A8" class="Link" href="?go=kategori&mdl=hastaneuzmanlik" target="_self">Hastane Branşları</a>
+        </li>
+      </ul>
+    </div>
+    <div class="openF">
+    </div>
+  </div>
+</li>

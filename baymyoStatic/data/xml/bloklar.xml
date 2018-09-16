@@ -1,0 +1,157 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Bloklar>
+    <ID>2</ID>
+    <Adi>Reklam-250x250.ascx</Adi>
+    <Baslik>Reklam 300x250</Baslik>
+    <Yer>Tum_Sag</Yer>
+    <SablonTipi>AscxNoTheme</SablonTipi>
+    <Sira>1</Sira>
+    <Dil>tr-TR</Dil>
+    <TumDil>true</TumDil>
+    <Sayfa />
+    <TumSayfa>true</TumSayfa>
+    <Tipi>ascx</Tipi>
+    <Aktif>true</Aktif>
+  </Bloklar>
+  <Bloklar>
+    <ID>3</ID>
+    <Adi>Site-Maps.ascx</Adi>
+    <Baslik>Site Maps</Baslik>
+    <Yer>Icerik_UstKemer</Yer>
+    <SablonTipi>AscxNoTheme</SablonTipi>
+    <Sira>0</Sira>
+    <Dil>tr-TR</Dil>
+    <TumDil>true</TumDil>
+    <Sayfa />
+    <TumSayfa>true</TumSayfa>
+    <Tipi>ascx</Tipi>
+    <Aktif>true</Aktif>
+  </Bloklar>
+  <Bloklar>
+    <ID>4</ID>
+    <Adi>Manset.ascx</Adi>
+    <Baslik>Manşet</Baslik>
+    <Yer>Anasayfa_Orta</Yer>
+    <SablonTipi>AscxNoTheme</SablonTipi>
+    <Sira>0</Sira>
+    <Dil>tr-TR</Dil>
+    <TumDil>true</TumDil>
+    <Sayfa />
+    <TumSayfa>true</TumSayfa>
+    <Tipi>ascx</Tipi>
+    <Aktif>true</Aktif>
+  </Bloklar>
+  <Bloklar>
+    <ID>5</ID>
+    <Adi>VideoSlider.ascx</Adi>
+    <Baslik>Video Galeri</Baslik>
+    <Yer>Anasayfa_Orta</Yer>
+    <SablonTipi>AscxNoTheme</SablonTipi>
+    <Sira>1</Sira>
+    <Dil>tr-TR</Dil>
+    <TumDil>true</TumDil>
+    <Sayfa />
+    <TumSayfa>true</TumSayfa>
+    <Tipi>ascx</Tipi>
+    <Aktif>true</Aktif>
+  </Bloklar>
+  <Bloklar>
+    <ID>6</ID>
+    <Adi>MakaleSon5.ascx</Adi>
+    <Baslik>Son 5 Eklenen Makale</Baslik>
+    <Yer>Anasayfa_Orta</Yer>
+    <SablonTipi>AscxNoTheme</SablonTipi>
+    <Sira>4</Sira>
+    <Dil>tr-TR</Dil>
+    <TumDil>true</TumDil>
+    <Sayfa />
+    <TumSayfa>true</TumSayfa>
+    <Tipi>ascx</Tipi>
+    <Aktif>true</Aktif>
+  </Bloklar>
+  <Bloklar>
+    <ID>7</ID>
+    <Adi>DoktorPopuler.ascx</Adi>
+    <Baslik>Popüler Doktorlar</Baslik>
+    <Yer>Anasayfa_Orta</Yer>
+    <SablonTipi>AscxNoTheme</SablonTipi>
+    <Sira>4</Sira>
+    <Dil>tr-TR</Dil>
+    <TumDil>true</TumDil>
+    <Sayfa />
+    <TumSayfa>true</TumSayfa>
+    <Tipi>ascx</Tipi>
+    <Aktif>true</Aktif>
+  </Bloklar>
+  <Bloklar>
+    <ID>8</ID>
+    <Adi>MakalePopuler.ascx</Adi>
+    <Baslik>Popüler Makaleler</Baslik>
+    <Yer>Tum_Sag</Yer>
+    <SablonTipi>AscxNoTheme</SablonTipi>
+    <Sira>2</Sira>
+    <Dil>tr-TR</Dil>
+    <TumDil>true</TumDil>
+    <Sayfa />
+    <TumSayfa>true</TumSayfa>
+    <Tipi>ascx</Tipi>
+    <Aktif>true</Aktif>
+  </Bloklar>
+  <Bloklar>
+    <ID>9</ID>
+    <Adi>DoktorYeniler.ascx</Adi>
+    <Baslik>Yeni Doktorlar</Baslik>
+    <Yer>Tum_Sag</Yer>
+    <SablonTipi>AscxNoTheme</SablonTipi>
+    <Sira>6</Sira>
+    <Dil>tr-TR</Dil>
+    <TumDil>true</TumDil>
+    <Sayfa />
+    <TumSayfa>true</TumSayfa>
+    <Tipi>ascx</Tipi>
+    <Aktif>true</Aktif>
+  </Bloklar>
+  <Bloklar>
+    <ID>10</ID>
+    <Adi>MakaleHaftaninKonusu.ascx</Adi>
+    <Baslik>Haftanın Konusu</Baslik>
+    <Yer>Anasayfa_Orta</Yer>
+    <SablonTipi>AscxNoTheme</SablonTipi>
+    <Sira>2</Sira>
+    <Dil>tr-TR</Dil>
+    <TumDil>true</TumDil>
+    <Sayfa />
+    <TumSayfa>true</TumSayfa>
+    <Tipi>ascx</Tipi>
+    <Aktif>true</Aktif>
+  </Bloklar>
+  <Bloklar>
+    <ID>11</ID>
+    <Adi>Sorunum-var-cozum-ariyorum-.bhtml</Adi>
+    <Baslik>Sorunum var çözüm arıyorum?</Baslik>
+    <Yer>Tum_Sag</Yer>
+    <SablonTipi>HtmlNoTheme</SablonTipi>
+    <Sira>3</Sira>
+    <Dil>tr-TR</Dil>
+    <TumDil>true</TumDil>
+    <Sayfa />
+    <TumSayfa>true</TumSayfa>
+    <Tipi>html</Tipi>
+    <Aktif>true</Aktif>
+  </Bloklar>
+  <Bloklar>
+    <ID>12</ID>
+    <Adi>Reklam-650x80.ascx</Adi>
+    <Baslik>Avea 650x80</Baslik>
+    <Yer>Anasayfa_Orta</Yer>
+    <SablonTipi>AscxNoTheme</SablonTipi>
+    <Sira>3</Sira>
+    <Dil>tr-TR</Dil>
+    <TumDil>true</TumDil>
+    <Sayfa />
+    <TumSayfa>true</TumSayfa>
+    <Tipi>ascx</Tipi>
+    <Aktif>true</Aktif>
+  </Bloklar>
+</DocumentElement>

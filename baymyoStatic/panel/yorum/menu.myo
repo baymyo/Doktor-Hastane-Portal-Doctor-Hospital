@@ -1,0 +1,5 @@
+﻿<li class="link-bg left">
+  <a id="A32" class="Link" href="?go=yorumliste" target="_self">
+    <img title="Yorumlar" src="%IconsPath%32/admin-yorumlar.png" />
+  </a>
+</li>

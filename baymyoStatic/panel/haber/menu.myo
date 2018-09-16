@@ -1,0 +1,23 @@
+﻿<li class="link-bg left">
+  <img title="Haberler" src="%IconsPath%32/admin-haber.png" />
+  <div class="contextMenu">
+    <div class="openT">
+      <img title="Haberler" src="%IconsPath%32/admin-haber.png" />
+    </div>
+    <div class="openB">
+      <ul>
+        <li>
+          <a id="A1" class="Link" href="?go=haber" target="_self">Yeni Haber Ekle</a>
+        </li>
+        <li>
+          <a id="A2" class="Link" href="?go=haberliste" target="_self">Haberleri Listele</a>
+        </li>
+        <li>
+          <a id="A2" class="Link" href="?go=kategori&mdl=haber" target="_self">Kategori Tanımla</a>
+        </li>
+      </ul>
+    </div>
+    <div class="openF">
+    </div>
+  </div>
+</li>

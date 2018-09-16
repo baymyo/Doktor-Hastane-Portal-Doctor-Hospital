@@ -1,0 +1,5 @@
+﻿<li class="link-bg left">
+  <a id="A32" class="Link" href="?go=jsondata" target="_self">
+    <img title="jSon Datalar" src="%IconsPath%32/admin-data.png" />
+  </a>
+</li>

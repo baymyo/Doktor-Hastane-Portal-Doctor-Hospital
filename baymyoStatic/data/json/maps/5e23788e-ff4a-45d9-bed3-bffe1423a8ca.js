@@ -1,0 +1,1 @@
+{"Lat":"36.587987529111246","Lng":"36.17473304271698","Zoom":"17","Title":"Prof. Dr. Sezgin Zühtü ÖZKAN","Description":"Rauf Paşa Caddesi Çay Mah. 93. Sok. No.7 İskenderun"}

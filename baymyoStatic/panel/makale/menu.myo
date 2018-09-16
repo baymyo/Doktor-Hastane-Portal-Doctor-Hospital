@@ -1,0 +1,23 @@
+﻿<li class="link-bg left">
+  <img title="Makaleler" src="%IconsPath%32/admin-makale.png" />
+  <div class="contextMenu">
+    <div class="openT">
+      <img title="Makaleler" src="%IconsPath%32/admin-makale.png" />
+    </div>
+    <div class="openB">
+      <ul>
+        <li>
+          <a id="A1" class="Link" href="?go=makale" target="_self">Yeni Makale Ekle</a>
+        </li>
+        <li>
+          <a id="A2" class="Link" href="?go=makaleliste" target="_self">Makaleleri Listele</a>
+        </li>
+        <li>
+          <a id="A2" class="Link" href="?go=kategori&mdl=makale" target="_self">Kategori Tanımla</a>
+        </li>
+      </ul>
+    </div>
+    <div class="openF">
+    </div>
+  </div>
+</li>

@@ -1,0 +1,223 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Default.master.cs" Inherits="common_master_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="MP_HEAD" runat="server">
+    <meta name="OWNER" content="info@baymyo.com">
+    <meta name="AUTHOR" content="baymyo">
+    <meta http-equiv="EXPIRES" content="18-06-2029">
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=iso-8859-9">
+    <meta http-equiv="CONTENT-LANGUAGE" content="tr">
+    <meta http-equiv="VW96.OBJECT TYPE" content="Other">
+    <meta name="ROBOTS" content="index,follow">
+    <script language="javascript" type="text/javascript" src="/common/js/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/common/js/tiny_mce/jquery.tinymce.js"></script>
+    <script language="javascript" type="text/javascript" src="/common/js/jquery.tipTip.js"></script>
+    <script language="javascript" type="text/javascript" src="/common/js/loopedslider.min.js"></script>
+    <link id="page_favicon" href="~/favicon.ico" rel="icon" type="image/x-icon" />
+    <link id="shortcut_favicon" href="~/favicon.ico" rel="shortcut icon" />
+    <script type="text/javascript">
+        function toolTipLoad() {
+            $(".toolTip").tipTip({ maxWidth: "auto", edgeOffset: 3 });
+        }
+
+        function contextMenuLoad() {
+            $(".contextMenu").hide();
+            $(".top-link").hover(
+            function () {
+                $(this).children("div.contextMenu").fadeIn(500);
+            },
+            function () {
+                $(this).children("div.contextMenu").fadeOut(500);
+            });
+        }
+
+        function createFlashBox(id) {
+            $(id + " .big-view").hide();
+            $(id + " .big-view:first").show();
+            $(id + " .small-view li a:first").addClass("active");
+            $(id + " .small-view li a").hover(function () {
+                var indexTabLink = $(id + " .small-view li a").index(this);
+                $(id + " .big-view").hide().eq(indexTabLink).show();
+                $(id + " .small-view li a").removeClass("active").eq(indexTabLink).addClass("active");
+            });
+        }
+
+        function createSliderBox(id) {
+            // Option set as a global variable
+            $.fn.loopedSlider.defaults.addPagination = true;
+            $(id).loopedSlider({
+                autoStart: 3500,
+                addPagination: false,
+                autoStart: 10000,
+                restart: 10000,
+                containerClick: false,
+                hoverPause: true
+            });
+        }
+
+        $(document).ready(function () {
+            contextMenuLoad();
+            toolTipLoad();
+        });
+    </script>
+</head>
+<body>
+    <form id="MainForm" runat="server">
+    <div id="head-box">
+        <div class="hTop">
+            <div class="social left">
+                <span class="left">Sosyal Medya:</span>
+                <div class="link left">
+                    <a href="#">
+                        <img src="images/top-facebook.png" alt="facebook" /></a> <a href="#">
+                            <img src="images/top-twitter.png" alt="twitter" /></a>
+                </div>
+            </div>
+            <div class="login right">
+                <asp:Literal ID="ltrTopLink" runat="server"></asp:Literal>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="hBottom">
+            <div class="bTop">
+                <div class="logo left">
+                    <a href="<%= Settings.VirtualPath+"?ref=top-logo" %>">
+                        <img src="images/logo.png" class="left" alt="doktorlar.net" /></a>
+                </div>
+                <div class="menu right">
+                    <ul>
+                        <li><a href="<%= Settings.VirtualPath+"doktorlar" %>">doktorlar</a></li>
+                        <li><a href="<%= Settings.VirtualPath+"hastaneler" %>">hastaneler</a></li>
+                        <li><a href="#">firmalar</a></li>
+                        <li><a href="<%= Settings.VirtualPath+"sorular" %>">sorular</a></li>
+                        <li><a href="<%= Settings.VirtualPath+"haberler" %>">haberler</a></li>
+                        <li><a href="#">sponsorlar</a></li>
+                    </ul>
+                    <div class="clear">
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+            <div class="bNav">
+                <div class="nL left">
+                </div>
+                <div class="nM left">
+                    <asp:Menu ID="NavigationMenu" CssClass="navigationMenu" StaticDisplayLevels="2" DynamicHorizontalOffset="1"
+                        StaticSubMenuIndent="1px" MaximumDynamicDisplayLevels="5" Orientation="Horizontal"
+                        DynamicPopOutImageUrl="~/images/right-arrow.png" StaticPopOutImageUrl="~/images/drop-arrow.png"
+                        DataSourceID="MenuSource" runat="server" Height="30px" OnDataBound="NavigationMenu_DataBound">
+                        <StaticMenuItemStyle ItemSpacing="5" CssClass="staticMenuItemStyle" />
+                        <StaticHoverStyle CssClass="staticHoverStyle" />
+                        <StaticSelectedStyle CssClass="staticMenuItemSelectedStyle" />
+                        <DynamicMenuItemStyle CssClass="dynamicMenuItemStyle" />
+                        <DynamicHoverStyle CssClass="menuItemMouseOver" />
+                        <DynamicMenuStyle CssClass="menuItem" />
+                        <DynamicSelectedStyle CssClass="menuItemSelected" />
+                        <DataBindings>
+                            <asp:MenuItemBinding DataMember="siteMapNode" NavigateUrlField="url" TextField="title" />
+                        </DataBindings>
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="MenuSource" runat="server" StartFromCurrentNode="false"
+                        ShowStartingNode="true" />
+                </div>
+                <div class="nR left">
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+            <div class="bSearch">
+                <div class="sL left">
+                </div>
+                <div class="sM left">
+                    <div id="search-box">
+                        <input id="srcInput" class="left" type="text" runat="server" value="Aranacak Kelime ..."
+                            onblur="if(this.value=='') {this.value=this.defaultValue;}" onfocus="if(this.defaultValue==this.value) {this.value = '';}" />
+                        <select id="srcOption" class="left" runat="server">
+                            <option value="" selected="selected">Bölüm!</option>
+                            <option value="makale">Makale</option>
+                            <option value="video">Video</option>
+                            <option value="mesaj">Soru</option>
+                            <option value="haber">Haber</option>
+                            <option value="doktor">Doktor</option>
+                            <option value="hastane">Hastane</option>
+                        </select>
+                        <asp:Button ID="srcButton" class="left" type="submit" runat="server" Text="ara" OnClick="srcButton_Click" />
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+                <div class="sR left">
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+        <div class="hShadow">
+        </div>
+    </div>
+    <div class="clear">
+    </div>
+    <div id="main-box">
+        <asp:ContentPlaceHolder ID="plcUstKemer" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="clear">
+        </div>
+        <div class="mMiddle left">
+            <asp:ContentPlaceHolder ID="plcOrta" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="mRight right">
+            <asp:ContentPlaceHolder ID="plcSag" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+        </div>
+        <asp:ContentPlaceHolder ID="plcAltKemer" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="clear">
+        </div>
+        <div class="shadow">
+        </div>
+    </div>
+    <div id="footer-box">
+        <center>
+            <div class="ftBody">
+                <div class="logo left">
+                    <a href="<%= Settings.VirtualPath+"?ref=footer-logo" %>">
+                        <img src="images/footer-logo.png" alt="footer logo" /></a>
+                </div>
+                <div class="copyright right">
+                    <ul class="link right">
+                        <li><a href="<%= Settings.VirtualPath+"contact" %>">İletişim</a></li>
+                        <li>&nbsp;|&nbsp;</li>
+                        <li><a href="#">Reklam</a></li>
+                        <li>&nbsp;|&nbsp;</li>
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li>&nbsp;|&nbsp;</li>
+                        <li><a href="#">Sponsorlar</a></li>
+                        <li>&nbsp;|&nbsp;</li>
+                        <li><a href="#">Firmalar</a></li>
+                        <li>&nbsp;|&nbsp;</li>
+                        <li><a href="<%= Settings.VirtualPath+"hastaneler" %>">Hastaneler</a></li>
+                        <li>&nbsp;|&nbsp;</li>
+                        <li><a href="<%= Settings.VirtualPath+"doktorlar" %>">Doktorlar</a></li>
+                        <li>&nbsp;|&nbsp;</li>
+                        <li><a href="#">Anasayfa</a></li>
+                    </ul>
+                    <div class="clear">
+                    </div>
+                    <div class="text right" style="text-align:justify; font-size: 12px;width:585px; line-height: 14px;">
+                        Doktorlar.Net web sitesinde yer alan tüm bilgi ve içerikler bilgilendirme amaçlıdır, bu içerik ve bilgilerin tedavi amaçlı kullanılması tavsiye edilmez. Bu sitede yer alan içeriklerin yanlış anlaşılması durumunda ortaya çıkabilecek sorunlardan Doktorlar.Net hiçbir şekilde sorumlu değildir. İçerikler izinsiz kullanılamaz. Detaylı bilgi için <a href="#"><b>Hizmet Sözleşmesi</b></a> ve <a href="#"><b>Üyelik Sözleşmesini</b></a> okuyunuz.
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </center>
+    </div>
+    </form>
+</body>
+</html>

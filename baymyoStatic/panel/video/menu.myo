@@ -1,0 +1,23 @@
+﻿<li class="link-bg left">
+  <img title="Videolar" src="%IconsPath%32/admin-video.png" />
+  <div class="contextMenu">
+    <div class="openT">
+      <img title="Videolar" src="%IconsPath%32/admin-video.png" />
+    </div>
+    <div class="openB">
+      <ul>
+        <li>
+          <a id="A1" class="Link" href="?go=video" target="_self">Yeni Video Ekle</a>
+        </li>
+        <li>
+          <a id="A2" class="Link" href="?go=videoliste" target="_self">Videoları Listele</a>
+        </li>
+        <li>
+          <a id="A2" class="Link" href="?go=kategori&mdl=video" target="_self">Kategori Tanımla</a>
+        </li>
+      </ul>
+    </div>
+    <div class="openF">
+    </div>
+  </div>
+</li>

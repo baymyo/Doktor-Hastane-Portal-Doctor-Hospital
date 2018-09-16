@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="http://localhost:18562/" title="Anasayfa" description="Portal açıklaması buraya yazılacak.">
+    <siteMapNode url="/Cinsel-Saglik-ac-0001.aspx" title="Cinsel Sağlık" description="Cinsel Sağlık hakkındaki içeriklere erişebilmek için tıklayınız.">
+      <siteMapNode url="/Cinsel-Sorunlar-ac-0001,0001.aspx" title="Cinsel Sorunlar" description="Cinsel Sorunlar hakkındaki içeriklere erişebilmek için tıklayınız." />
+      <siteMapNode url="/Gebelik-ac-0001,0002.aspx" title="Gebelik" description="Gebelik hakkındaki içeriklere erişebilmek için tıklayınız.">
+        <siteMapNode url="/Tup-Bebek-ac-0001,0002,0001.aspx" title="Tüp Bebek" description="Tüp Bebek hakkındaki içeriklere erişebilmek için tıklayınız." />
+        <siteMapNode url="/Ureme-Sagligi-ac-0001,0002,0002.aspx" title="Üreme Sağlığı" description="Üreme Sağlığı hakkındaki içeriklere erişebilmek için tıklayınız." />
+      </siteMapNode>
+      <siteMapNode url="/Dogum-Kontrolu-ac-0001,0003.aspx" title="Doğum Kontrolü" description="Doğum Kontrolü hakkındaki içeriklere erişebilmek için tıklayınız." />
+      <siteMapNode url="/Zuhrevi-Hastalklar-ac-0001,0004.aspx" title="Zührevi Hastalklar" description="Zührevi Hastalklar hakkındaki içeriklere erişebilmek için tıklayınız." />
+    </siteMapNode>
+    <siteMapNode url="/Cildiye-ac-0002.aspx" title="Cildiye" description="Cildiye hakkındaki içeriklere erişebilmek için tıklayınız." />
+    <siteMapNode url="/Ortopedi-ac-0003.aspx" title="Ortopedi" description="Ortopedi hakkındaki içeriklere erişebilmek için tıklayınız." />
+    <siteMapNode url="/Cocuk-ac-0004.aspx" title="Çocuk" description="Çocuk hakkındaki içeriklere erişebilmek için tıklayınız." />
+    <siteMapNode url="/Dahiliye-ac-0005.aspx" title="Dahiliye" description="Dahiliye hakkındaki içeriklere erişebilmek için tıklayınız." />
+    <siteMapNode url="/Noroloji-ac-0006.aspx" title="Nöroloji" description="Nöroloji hakkındaki içeriklere erişebilmek için tıklayınız." />
+    <siteMapNode url="/Genel-Cerrahi-ac-0007.aspx" title="Genel Cerrahi" description="Genel Cerrahi hakkındaki içeriklere erişebilmek için tıklayınız." />
+    <siteMapNode url="/Kan-Hastalklar-ac-0008.aspx" title="Kan Hastalklar" description="Kan Hastalklar hakkındaki içeriklere erişebilmek için tıklayınız." />
+    <siteMapNode url="/Mevsim-Hastalklar-ac-0009.aspx" title="Mevsim Hastalklar" description="Mevsim Hastalklar hakkındaki içeriklere erişebilmek için tıklayınız.">
+      <siteMapNode url="/Domuz-Gribi-ac-0009,0001.aspx" title="Domuz Gribi" description="Domuz Gribi hakkındaki içeriklere erişebilmek için tıklayınız." />
+      <siteMapNode url="/Kus-Gribi-ac-0009,0002.aspx" title="Kuş Gribi" description="Kuş Gribi hakkındaki içeriklere erişebilmek için tıklayınız." />
+      <siteMapNode url="/Deli-Dana-Hastaligi-ac-0009,0003.aspx" title="Deli Dana Hastalığı" description="Deli Dana Hastalığı hakkındaki içeriklere erişebilmek için tıklayınız." />
+      <siteMapNode url="/Yalanci-Bahar-ac-0009,0004.aspx" title="Yalancı Bahar" description="Yalancı Bahar hakkındaki içeriklere erişebilmek için tıklayınız." />
+      <siteMapNode url="/Gunes-Carpmasi-ac-0009,0005.aspx" title="Güneş Çarpması" description="Güneş Çarpması hakkındaki içeriklere erişebilmek için tıklayınız." />
+    </siteMapNode>
+    <siteMapNode url="/Kalp-Damar-ac-0010.aspx" title="Kalp - Damar" description="Kalp - Damar hakkındaki içeriklere erişebilmek için tıklayınız." />
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,5 @@
+﻿<li class="link-bg left">
+  <a id="A32" class="Link" href="?go=randevuliste" target="_self">
+    <img title="Randevular" src="%IconsPath%32/admin-randevu.png" />
+  </a>
+</li>
